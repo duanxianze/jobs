@@ -3,23 +3,21 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function register(){
-      dump('11');
-      // $type = $_SESSION['type'];
-      // if(empty($type)){
-      //   $this->display();
-      // }else{
-      //   $this->success('已登录，正跳转至详情页面...',U('loginHandle'));
-      // }
+      $type = $_SESSION['type'];
+      if(empty($type)){
+        $this->display();
+      }else{
+        $this->success('已登录，正跳转至详情页面...',U('loginHandle'));
+      }
     }
     public function index(){
-      dump('123');
-      // $type = $_SESSION['type'];
-      // if(empty($type)){
-      //   $this->result = D('InviteView')->order('accept_time desc')->select();
-      //   $this->display();
-      // }else{
-      //   $this->success('已登录，正跳转至详情页面...',U('loginHandle'));
-      // }
+      $type = $_SESSION['type'];
+      if(empty($type)){
+        $this->result = D('InviteView')->order('accept_time desc')->select();
+        $this->display();
+      }else{
+        $this->success('已登录，正跳转至详情页面...',U('loginHandle'));
+      }
     }
     public function registerHandle(){
       $type = I('type');
