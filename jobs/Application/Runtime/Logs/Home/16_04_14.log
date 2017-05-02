@@ -1,0 +1,938 @@
+[ 2016-04-14T10:06:14+08:00 ] 10.18.97.142 /jobs/index.php/Home/Index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 129 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T10:06:16+08:00 ] 10.18.97.142 /jobs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T10:06:24+08:00 ] 10.18.97.142 /jobs/index.php/Home/Index/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `name` = '130268012' AND `password` = 'c7f683840a8fa3218494d3f313fc89d1'  [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T10:06:25+08:00 ] 10.18.97.142 /jobs/index.php/Home/Index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `name` = '130268012' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id WHERE invite.sno = '917'  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id WHERE invite.sno = '917' 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-04-14T10:06:38+08:00 ] 10.18.97.142 /jobs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T10:06:41+08:00 ] 10.18.97.142 /jobs/index.php/Home/Index/studentaddHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: UPDATE `job_student` SET `nplace`='内蒙古自治区通辽市奈曼旗',`address`='通辽市奈曼旗大镇',`work`='公务员',`phone`='18361351278',`email`='631758588@qq.com',`city`='大连',`resume`='<p style=\"line-height: 16px;\"><img style=\"vertical-align: middle; margin-right: 2px;\" src=\"http://202.195.66.7/jobs/Public/JS/dialogs/attachment/fileTypeImages/icon_jpg.gif\"/><a style=\"font-size:12px; color:#0066cc;\" href=\"http://202.195.66.7/ueditor/php/upload/file/20160413/1460553046875395.png\" title=\"image.png\">image.png</a></p><p style=\"text-indent: 0em;\"><br/></p>',`status`=1 WHERE `name` = '130268012' [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T11:53:33+08:00 ] 10.8.135.53 /jobs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T11:53:47+08:00 ] 10.8.135.53 /jobs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.015600s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T11:53:58+08:00 ] 10.8.135.53 /jobs/index.php/Home/Index/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `name` = '130268068' AND `password` = '904e6ab68b8ec5f38c08924c9fd93bb3'  [ RunTime:0.093601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T11:53:59+08:00 ] 10.8.135.53 /jobs/index.php/Home/Index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `name` = '130268068' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id WHERE invite.sno = '980'  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id WHERE invite.sno = '980' 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T11:54:02+08:00 ] 10.8.135.53 /jobs/index.php/Home/Index/showresume/id/980.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 980  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T11:54:12+08:00 ] 10.8.135.53 /jobs/index.php/Home/Index/studentedit/id/980.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `job_student` WHERE `name` = '130268068'  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T11:55:04+08:00 ] 220.181.132.216 /jobs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.015600s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T11:55:32+08:00 ] 182.140.230.16 /jobs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.015600s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T11:55:45+08:00 ] 101.199.112.49 /jobs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T11:56:00+08:00 ] 10.8.135.53 /jobs/index.php/Home/Index/studentaddHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.015600s ]
+SQL: UPDATE `job_student` SET `nplace`='四川德阳',`address`='四川广汉市兴隆镇寨子村10组',`work`='软件研发类',`phone`='18361350583',`email`='1006711664@qq.com',`resume`='<p>				</p><p style=\"text-align:center\"><span style=\";font-family:宋体;font-weight:bold;font-size:29px\">个人简历</span></p><table width=\"614\"><tbody><tr style=\"height:31px\" class=\"firstRow\"><td width=\"105\" valign=\"center\" style=\"padding: 0px 7px; border-width: 1px; border-color: rgb(192, 192, 192); background: rgb(235, 251, 243);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-weight:bold;font-size:16px\">姓&nbsp;&nbsp;名</span></p></td><td width=\"143\" valign=\"center\" style=\"padding: 0px 7px; border-width: 1px; border-color: rgb(192, 192, 192);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-size:16px\">刘俊光</span></p></td><td width=\"84\" valign=\"center\" style=\"padding: 0px 7px; border-width: 1px; border-color: rgb(192, 192, 192); background: rgb(235, 251, 243);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-weight:bold;font-size:16px\">性&nbsp;&nbsp;别</span></p></td><td width=\"144\" valign=\"center\" colspan=\"3\" style=\"padding: 0px 7px; border-width: 1px; border-color: rgb(192, 192, 192);\"><p style=\";text-align:center\"><span style=\"font-family:宋体;font-size:16px\">男</span></p></td><td width=\"138\" valign=\"top\" rowspan=\"5\" style=\"padding: 0px 7px; border-width: 1px; border-color: rgb(192, 192, 192);\"><p><span style=\"font-family:宋体;font-size:16px\"><img width=\"125\" height=\"182\" src=\"http://202.195.66.7/jobs/Public/JS/themes/default/images/spacer.gif\" word_img=\"file:///C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\ksohtml\\wps4099.tmp.png\" style=\"background:url(http://202.195.66.7/jobs/Public/JS/themes/default/images/word.gif) no-repeat center center;border:1px solid #ddd\"/></span><span style=\"font-family:宋体;font-size:16px\">&nbsp;</span></p></td></tr><tr style=\"height:31px\"><td width=\"105\" valign=\"center\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: rgb(192, 192, 192); border-right-width: 1px; border-right-color: rgb(192, 192, 192); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(192, 192, 192); background: rgb(235, 251, 243);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-weight:bold;font-size:16px\">民&nbsp;&nbsp;族</span></p></td><td width=\"143\" valign=\"center\" style=\"padding: 0px 7px; border-width: 1px; border-color: rgb(192, 192, 192);\"><p style=\";text-align:center\"><span style=\"font-family:宋体;font-size:16px\">汉</span></p></td><td width=\"84\" valign=\"center\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: rgb(192, 192, 192); border-right-width: 1px; border-right-color: rgb(192, 192, 192); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(192, 192, 192); background: rgb(235, 251, 243);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-weight:bold;font-size:16px\">籍&nbsp;&nbsp;贯</span></p></td><td width=\"144\" valign=\"center\" colspan=\"3\" style=\"padding: 0px 7px; border-width: 1px; border-color: rgb(192, 192, 192);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-size:16px\">四川德阳</span></p></td></tr><tr style=\"height:30px\"><td width=\"105\" valign=\"center\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: rgb(192, 192, 192); border-right-width: 1px; border-right-color: rgb(192, 192, 192); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(192, 192, 192); background: rgb(235, 251, 243);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-weight:bold;font-size:16px\">年&nbsp;&nbsp;龄</span></p></td><td width=\"143\" valign=\"center\" style=\"padding: 0px 7px; border-width: 1px; border-color: rgb(192, 192, 192);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-size:16px\">21</span></p></td><td width=\"84\" valign=\"center\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: rgb(192, 192, 192); border-right-width: 1px; border-right-color: rgb(192, 192, 192); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(192, 192, 192); background: rgb(235, 251, 243);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-weight:bold;font-size:16px\">身&nbsp;&nbsp;高</span></p></td><td width=\"144\" valign=\"center\" colspan=\"3\" style=\"padding: 0px 7px; border-width: 1px; border-color: rgb(192, 192, 192);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-size:16px\">173cm</span></p></td></tr><tr style=\"height:31px\"><td width=\"105\" valign=\"center\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: rgb(192, 192, 192); border-right-width: 1px; border-right-color: rgb(192, 192, 192); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(192, 192, 192); background: rgb(235, 251, 243);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-weight:bold;font-size:16px\">专&nbsp;&nbsp;业</span></p></td><td width=\"143\" valign=\"center\" style=\"padding: 0px 7px; border-width: 1px; border-color: rgb(192, 192, 192);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-size:16px\">物联网</span></p></td><td width=\"84\" valign=\"center\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: rgb(192, 192, 192); border-right-width: 1px; border-right-color: rgb(192, 192, 192); border-top-style: none; border-bottom-style: none; background: rgb(235, 251, 243);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-weight:bold;font-size:16px\">学&nbsp;&nbsp;历</span></p></td><td width=\"144\" valign=\"center\" colspan=\"3\" style=\"padding: 0px 7px; border-width: 1px; border-color: rgb(192, 192, 192);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-size:16px\">本科</span></p></td></tr><tr style=\"height:61px\"><td width=\"105\" valign=\"center\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: rgb(192, 192, 192); border-right-width: 1px; border-right-color: rgb(192, 192, 192); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(192, 192, 192); background: rgb(235, 251, 243);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-weight:bold;font-size:16px\">毕业院校</span></p></td><td width=\"371\" valign=\"center\" colspan=\"5\" style=\"padding: 0px 7px; border-width: 1px; border-color: rgb(192, 192, 192);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-size:16px\">江苏师范大学</span></p></td></tr><tr style=\"height:31px\"><td width=\"105\" valign=\"center\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: rgb(192, 192, 192); border-right-width: 1px; border-right-color: rgb(192, 192, 192); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(192, 192, 192); background: rgb(235, 251, 243);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-weight:bold;font-size:16px\">联系电话</span></p></td><td width=\"239\" valign=\"center\" colspan=\"3\" style=\"padding: 0px 7px; border-width: 1px; border-color: rgb(192, 192, 192);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-size:16px\">18361350583</span></p></td><td width=\"84\" valign=\"center\" style=\"padding: 0px 7px; border-width: 1px; border-color: rgb(192, 192, 192); background: rgb(235, 251, 243);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-weight:bold;font-size:16px\">电子邮件</span></p></td><td width=\"186\" valign=\"center\" colspan=\"2\" style=\"padding: 0px; border-width: 1px; border-color: rgb(192, 192, 192);\"><p><span style=\";font-family:宋体;font-size:16px\">1006711664@qq.com</span></p></td></tr><tr style=\"height:41px\"><td width=\"105\" valign=\"center\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: rgb(192, 192, 192); border-right-width: 1px; border-right-color: rgb(192, 192, 192); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(192, 192, 192); background: rgb(235, 251, 243);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-weight:bold;font-size:16px\">求职意向</span></p></td><td width=\"509\" valign=\"top\" colspan=\"6\" style=\"padding: 0px 7px; border-width: 1px; border-color: rgb(192, 192, 192);\"><br/></td></tr><tr style=\"height:40px\"><td width=\"105\" valign=\"center\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: rgb(192, 192, 192); border-right-width: 1px; border-right-color: rgb(192, 192, 192); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(192, 192, 192); background: rgb(235, 251, 243);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-weight:bold;font-size:16px\">个人技能</span></p></td><td width=\"509\" valign=\"top\" colspan=\"6\" style=\"padding: 0px 7px; border-width: 1px; border-color: rgb(192, 192, 192);\"><p><span style=\";font-family:宋体;font-size:16px\">熟悉</span><span style=\";font-family:宋体;font-size:16px\">C语言，JAVA语言能熟练编程。</span></p><p><span style=\";font-family:宋体;font-size:16px\">可以用</span><span style=\";font-family:宋体;font-size:16px\">Dreamweaver,Eclipse,Keil&nbsp;uVision等软件高效率完成工作。</span></p><p><span style=\"font-family:宋体;font-size:16px\">&nbsp;</span></p><p><span style=\"font-family:宋体;font-size:16px\">&nbsp;</span></p></td></tr><tr style=\"height:72px\"><td width=\"105\" valign=\"center\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: rgb(192, 192, 192); border-right-width: 1px; border-right-color: rgb(192, 192, 192); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(192, 192, 192); background: rgb(235, 251, 243);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-weight:bold;font-size:16px\">主修课程</span></p></td><td width=\"509\" valign=\"top\" colspan=\"6\" style=\"padding: 0px 7px; border-width: 1px; border-color: rgb(192, 192, 192);\"><p><span style=\";font-family:宋体;font-size:16px\">数据库系统概述，信号与系统教程，数据结构，传感器原理及应用，计算机组成原理等。</span></p></td></tr><tr style=\"height:58px\"><td width=\"105\" valign=\"center\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: rgb(192, 192, 192); border-right-width: 1px; border-right-color: rgb(192, 192, 192); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(192, 192, 192); background: rgb(235, 251, 243);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-weight:bold;font-size:16px\">教育经历</span></p></td><td width=\"509\" valign=\"top\" colspan=\"6\" style=\"padding: 0px 7px; border-width: 1px; border-color: rgb(192, 192, 192);\"><p><span style=\";font-family:宋体;font-size:16px\">2013年9月&nbsp;—2016年3月&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=\";font-family:宋体;font-size:16px\">江苏师范大学物联网专业本科</span></p></td></tr><tr style=\"height:52px\"><td width=\"105\" valign=\"center\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: rgb(192, 192, 192); border-right-width: 1px; border-right-color: rgb(192, 192, 192); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(192, 192, 192); background: rgb(235, 251, 243);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-weight:bold;font-size:16px\">实习经历</span></p></td><td width=\"509\" valign=\"top\" colspan=\"6\" style=\"padding: 0px 7px; border-width: 1px; border-color: rgb(192, 192, 192);\"><br/></td></tr><tr style=\"height:51px\"><td width=\"105\" valign=\"center\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: rgb(192, 192, 192); border-right-width: 1px; border-right-color: rgb(192, 192, 192); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(192, 192, 192); background: rgb(235, 251, 243);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-weight:bold;font-size:16px\">英语、</span></p><p style=\";text-align:center\"><span style=\";font-family:宋体;font-weight:bold;font-size:16px\">计算机水平</span></p></td><td width=\"509\" valign=\"top\" colspan=\"6\" style=\"padding: 0px 7px; border-width: 1px; border-color: rgb(192, 192, 192);\"><p><span style=\";font-family:宋体;font-size:16px\">英语：熟练&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;计算机：熟练</span></p><p><span style=\";font-family:宋体;font-size:16px\">CET4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;计算机2级</span></p></td></tr><tr style=\"height:49px\"><td width=\"105\" valign=\"center\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: rgb(192, 192, 192); border-right-width: 1px; border-right-color: rgb(192, 192, 192); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(192, 192, 192); background: rgb(235, 251, 243);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-weight:bold;font-size:16px\">个人爱好</span></p></td><td width=\"509\" valign=\"top\" colspan=\"6\" style=\"padding: 0px 7px; border-width: 1px; border-color: rgb(192, 192, 192);\"><p><span style=\";font-family:宋体;font-size:16px\">喜欢看书，听音乐。</span></p><p><span style=\";font-family:宋体;font-size:16px\">爱好JAVA语言、喜欢从事软件开发</span><span style=\"font-family:宋体;font-size:16px\">。</span></p><p><span style=\"font-family:宋体;font-size:16px\">&nbsp;</span></p></td></tr><tr style=\"height:104px\"><td width=\"105\" valign=\"center\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: rgb(192, 192, 192); border-right-width: 1px; border-right-color: rgb(192, 192, 192); border-top-style: none; border-bottom-width: 1px; border-bottom-color: rgb(192, 192, 192); background: rgb(235, 251, 243);\"><p style=\";text-align:center\"><span style=\";font-family:宋体;font-weight:bold;font-size:16px\">自我评价</span></p></td><td width=\"509\" valign=\"top\" colspan=\"6\" style=\"padding: 0px 7px; border-width: 1px; border-color: rgb(192, 192, 192);\"><p><span style=\";font-family:宋体;font-size:16px\">本人性格</span><span style=\";font-family:宋体;font-size:16px\">开朗</span><span style=\";font-family:宋体;font-size:16px\">，想象力强，博闻强记，并且重视团队合作精神，热爱设计事</span><span style=\";font-family:宋体;font-size:16px\">，绝对服从上级命令。</span></p></td></tr></tbody></table><p><span style=\";font-family:&#39;Times New Roman&#39;;font-size:14px\">&nbsp;</span></p><p>			</p>',`status`=1 WHERE `name` = '130268068' [ RunTime:0.046800s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T11:56:01+08:00 ] 10.8.135.53 /jobs/index.php/Home/Index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `job_student` WHERE `name` = '130268068' LIMIT 1   [ RunTime:0.202801s ]
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id WHERE invite.sno = '980'  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id WHERE invite.sno = '980' 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T11:56:09+08:00 ] 10.8.135.53 /jobs/index.php/Home/Index/clear.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T11:56:10+08:00 ] 10.8.135.53 /jobs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T11:58:27+08:00 ] 171.8.167.76 /jobs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.015600s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T12:01:23+08:00 ] 171.8.167.68 /jobs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T14:07:23+08:00 ] 117.136.66.208 /jobs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T14:07:48+08:00 ] 117.136.66.208 /jobs/index.php/Home/Index/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `name` = '130268059' AND `password` = 'edd4961f988e519901b48ff5a1afff39'  [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T14:07:49+08:00 ] 117.136.66.208 /jobs/index.php/Home/Index/studentadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo C:\xampp\htdocs\jobs\Application\Runtime\Cache\Home\79a85c67860ac6319c3bfccec35cf385.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T14:10:27+08:00 ] 117.136.66.208 /jobs/index.php/Home/Index/studentaddHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T14:10:53+08:00 ] 117.136.66.208 /jobs/index.php/Home/Index/studentaddHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T14:11:40+08:00 ] 117.136.66.208 /jobs/index.php/Home/Index/studentaddHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T21:38:54+08:00 ] 112.90.82.196 /jobs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T22:13:57+08:00 ] 10.8.162.60 /jobs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T22:17:31+08:00 ] 10.8.162.60 /jobs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T23:13:55+08:00 ] 10.8.160.240 /jobs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T23:14:17+08:00 ] 10.8.160.240 /jobs/index.php/Home/Index/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `name` = '130269065' AND `password` = 'e6818b2cc0ba2902db2c1827088decda'  [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T23:14:18+08:00 ] 10.8.160.240 /jobs/index.php/Home/Index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `name` = '130269065' LIMIT 1   [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.015600s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id WHERE invite.sno = '867'  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id WHERE invite.sno = '867' 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T23:14:25+08:00 ] 10.8.160.240 /jobs/index.php/Home/Index/studentedit/id/867.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `name` = '130269065'  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T23:14:47+08:00 ] 10.8.160.240 /jobs/index.php/Home/Index/studentaddHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: UPDATE `job_student` SET `nplace`='江苏如皋',`address`='江苏省如皋市江安镇黄市新居十八组1号',`work`='考研',`phone`='18260357098',`email`='1904016381@qq.com',`resume`='<p>				</p><p style=\"line-height: 16px;\"><img style=\"vertical-align: middle; margin-right: 2px;\" src=\"http://202.195.66.7/jobs/Public/JS/dialogs/attachment/fileTypeImages/icon_doc.gif\"/><a style=\"font-size:12px; color:#0066cc;\" href=\"http://202.195.66.7/ueditor/php/upload/file/20160408/1460126605116413.docx\" title=\"黄艳-130269065.docx\">黄艳-130269065.docx</a></p><p><br/></p><p>			</p>',`status`=1 WHERE `name` = '130269065' [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T23:14:48+08:00 ] 10.8.160.240 /jobs/index.php/Home/Index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `name` = '130269065' LIMIT 1   [ RunTime:0.093600s ]
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.015600s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id WHERE invite.sno = '867'  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id WHERE invite.sno = '867' 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T23:14:56+08:00 ] 10.8.160.240 /jobs/index.php/Home/Index/studentedit/id/867.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `name` = '130269065'  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T23:15:15+08:00 ] 10.8.160.240 /jobs/index.php/Home/Index/studentaddHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.015600s ]
+SQL: UPDATE `job_student` SET `nplace`='江苏如皋',`address`='江苏省如皋市江安镇黄市新居十八组1号',`work`='考研',`phone`='18260357098',`email`='1904016381@qq.com',`resume`='<p>				</p><p><br/></p><p style=\"line-height: 16px;\"><img style=\"vertical-align: middle; margin-right: 2px;\" src=\"http://202.195.66.7/jobs/Public/JS/dialogs/attachment/fileTypeImages/icon_doc.gif\"/><a style=\"font-size:12px; color:#0066cc;\" href=\"http://202.195.66.7/ueditor/php/upload/file/20160408/1460126605116413.docx\" title=\"黄艳-130269065.docx\">黄艳-130269065.docx</a></p><p><br/></p><p><br/></p><p>			</p>',`status`=1 WHERE `name` = '130269065' [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-14T23:15:17+08:00 ] 10.8.160.240 /jobs/index.php/Home/Index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `job_student` WHERE `name` = '130269065' LIMIT 1   [ RunTime:0.093600s ]
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id WHERE invite.sno = '867'  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id WHERE invite.sno = '867' 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

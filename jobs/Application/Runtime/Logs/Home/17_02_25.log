@@ -1,0 +1,27 @@
+[ 2017-02-25T06:22:08+08:00 ] 157.55.39.27 /jobs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

@@ -1,0 +1,1895 @@
+[ 2015-11-24T00:23:59+08:00 ] 120.195.42.84 /jobs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T00:45:35+08:00 ] 180.124.138.83 /jobs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T00:46:08+08:00 ] 180.124.138.83 /jobs/index.php/Home/Index/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `job_student` WHERE `name` = '12267065' AND `password` = 'f56e62d30711f4a1c3a121c763196ace'  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T00:46:24+08:00 ] 180.124.138.83 /jobs/index.php/Home/Index/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `name` = '12267065' AND `password` = 'b9d5bc78f84e070f6c88f1ab4b967c54'  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T00:46:44+08:00 ] 180.124.138.83 /jobs/index.php/Home/Index/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `name` = '12267065' AND `password` = '27fe58c32bb831ded92265b6567e52a0'  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T00:46:45+08:00 ] 180.124.138.83 /jobs/index.php/Home/Index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `name` = '12267065' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.015600s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id WHERE invite.sno = '719'  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id WHERE invite.sno = '719' 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T00:46:48+08:00 ] 180.124.138.83 /jobs/index.php/Home/Index/showresume/id/719.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 719  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T03:40:15+08:00 ] 180.153.201.24 /jobs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.046800s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.062400s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.031200s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-11-24T05:47:20+08:00 ] 120.195.42.84 /jobs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T05:58:33+08:00 ] 219.230.248.103 /jobs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.015600s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T05:58:46+08:00 ] 219.230.248.103 /jobs/index.php/Home/Index/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `name` = '12267065' AND `password` = '27fe58c32bb831ded92265b6567e52a0'  [ RunTime:0.452401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T05:58:47+08:00 ] 180.153.206.25 /jobs/index.php/Home/Index/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 74 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.015600s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T05:58:48+08:00 ] 219.230.248.103 /jobs/index.php/Home/Index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `name` = '12267065' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id WHERE invite.sno = '719'  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id WHERE invite.sno = '719' 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T05:58:48+08:00 ] 180.153.206.31 /jobs/index.php/Home/Index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 129 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-11-24T05:58:50+08:00 ] 219.230.248.103 /jobs/index.php/Home/Index/showresume/id/719.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 719  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T05:58:51+08:00 ] 101.226.66.180 /jobs/index.php/Home/Index/showresume/id/719.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 719  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T10:17:09+08:00 ] 221.218.212.39 /jobs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T10:17:24+08:00 ] 221.218.212.39 /jobs/index.php/Home/Index/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_company` WHERE `name` = 'test@test.com' AND `password` = '098f6bcd4621d373cade4e832627b4f6'  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T10:17:32+08:00 ] 221.218.212.39 /jobs/index.php/Home/Index/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `job_company` WHERE `name` = 'test@test.com' AND `password` = 'c8837b23ff8aaa8a2dde915473ce0991'  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-11-24T10:17:33+08:00 ] 221.218.212.39 /jobs/index.php/Home/Index/studentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_company` WHERE `name` = 'test@test.com'  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_company` WHERE `name` = 'test@test.com' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `job_invite` WHERE `cno` = 5  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student`  [ RunTime:0.031200s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T10:17:44+08:00 ] 221.218.212.39 /jobs/index.php/Home/Index/showresume/id/56.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 56  [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-11-24T10:19:39+08:00 ] 221.218.212.39 /jobs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T10:19:41+08:00 ] 221.218.212.39 /jobs/index.php/Home/Index/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_company` WHERE `name` = 'test@test.com' AND `password` = 'c8837b23ff8aaa8a2dde915473ce0991'  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T10:19:42+08:00 ] 221.218.212.39 /jobs/index.php/Home/Index/studentlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_company` WHERE `name` = 'test@test.com'  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_company` WHERE `name` = 'test@test.com' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_invite` WHERE `cno` = 5  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student`  [ RunTime:0.031200s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\jobs\Application\Home\Common\function.php 第 64 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T10:19:51+08:00 ] 221.218.212.39 /jobs/index.php/Home/Index/showresume/id/768.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 768  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T10:22:33+08:00 ] 221.218.212.39 /jobs/index.php/Home/Index/showresume/id/688.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 688  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T10:22:45+08:00 ] 221.218.212.39 /jobs/index.php/Home/Index/showresume/id/685.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 685  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T10:22:58+08:00 ] 221.218.212.39 /jobs/index.php/Home/Index/showresume/id/691.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 691  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T10:23:23+08:00 ] 221.218.212.39 /jobs/index.php/Home/Index/showresume/id/712.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 712  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T10:23:27+08:00 ] 221.218.212.39 /jobs/index.php/Home/Index/showresume/id/721.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 721  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T10:23:43+08:00 ] 221.218.212.39 /jobs/index.php/Home/Index/showresume/id/771.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 771  [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T10:24:51+08:00 ] 221.218.212.39 /jobs/index.php/Home/Index/showresume/id/731.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 731  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T10:25:32+08:00 ] 221.218.212.39 /jobs/index.php/Home/Index/showresume/id/625.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 625  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T10:25:42+08:00 ] 221.218.212.39 /jobs/index.php/Home/Index/showresume/id/637.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 637  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T10:26:12+08:00 ] 221.218.212.39 /jobs/index.php/Home/Index/showresume/id/201.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 201  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T10:26:22+08:00 ] 221.218.212.39 /jobs/index.php/Home/Index/showresume/id/187.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 187  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T10:26:37+08:00 ] 221.218.212.39 /jobs/index.php/Home/Index/showresume/id/685.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 685  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-11-24T10:26:43+08:00 ] 221.218.212.39 /jobs/index.php/Home/Index/showresume/id/694.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 694  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T10:26:57+08:00 ] 221.218.212.39 /jobs/index.php/Home/Index/showresume/id/728.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 728  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T16:29:15+08:00 ] 10.8.132.114 /jobs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T16:29:40+08:00 ] 10.8.132.114 /jobs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id ORDER BY invite.accept_time desc 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T16:29:50+08:00 ] 10.8.132.114 /jobs/index.php/Home/Index/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type C:\xampp\htdocs\jobs\Application\Home\Controller\IndexController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `name` = '12267014' AND `password` = 'ffcb217fa3b27a1f463b7c834856e40a'  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T16:29:51+08:00 ] 10.8.132.114 /jobs/index.php/Home/Index/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `name` = '12267014' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_invite` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `job_company` [ RunTime:0.000000s ]
+SQL: SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id WHERE invite.sno = '670'  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'invite.message' in 'field list'
+ [ SQL语句 ] : SELECT invite.id AS id,invite.sno AS sno,invite.cno AS cno,invite.type AS type,invite.invite_time AS invite_time,invite.accept_time AS accept_time,invite.detail AS detail,invite.message AS message,company.id AS companyid,company.rname AS companyname,company.name AS companyemail,company.resume AS resume,company.phone AS companyphone,student.id AS studentid,student.rname AS studentname,student.name AS studentemail,student.address AS address,student.work AS work,student.city AS city,student.city1 AS city1,student.city2 AS city2,student.phone AS studentphone FROM job_invite invite  JOIN job_company company ON invite.cno=company.id  JOIN job_student student ON invite.sno=student.id WHERE invite.sno = '670' 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T16:29:57+08:00 ] 10.8.132.114 /jobs/index.php/Home/Index/showresume/id/670.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 670  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T16:30:07+08:00 ] 10.8.132.114 /jobs/index.php/Home/Index/showresume/id/670.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 670  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T16:30:59+08:00 ] 10.8.132.114 /jobs/index.php/Home/Index/showresume/id/670.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `job_student` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `job_student` WHERE `id` = 670  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

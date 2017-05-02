@@ -1,0 +1,6 @@
+[ 2014-10-03T20:49:10+08:00 ] 127.0.0.1 /loginn/index.php/Home/Index/inviteHandle/id/3.html
+ERR: 模板不存在:./Application/Home/View/Index/inviteHandle.html
+
+[ 2014-10-03T21:37:34+08:00 ] 127.0.0.1 /loginn/index.php/Home/Index/invitehistory/id/3.html
+ERR: 错误的查询条件:[sno=>3]
+

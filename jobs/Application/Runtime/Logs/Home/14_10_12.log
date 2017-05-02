@@ -1,0 +1,18 @@
+[ 2014-10-12T22:08:19+08:00 ] 127.0.0.1 /jobs/index.php/Home/Index/login.html
+ERR: 非法操作:login
+
+[ 2014-10-12T22:08:58+08:00 ] 127.0.0.1 /jobs/index.php/Home/Index/login.html
+ERR: 非法操作:login
+
+[ 2014-10-12T22:33:50+08:00 ] 127.0.0.1 /jobs/index.php/Home/Index/showerrorHandle.html
+ERR: 非法数据对象！:[accept_time=>1413124430]
+
+[ 2014-10-12T22:35:49+08:00 ] 127.0.0.1 /jobs/index.php/Home/Index/showerrorHandle.html
+ERR: Think\Controller:eroor方法不存在！
+
+[ 2014-10-12T22:36:21+08:00 ] 127.0.0.1 /jobs/index.php/Home/Index/showerrorHandle.html
+ERR: 非法数据对象！:[accept_time=>1413124581]
+
+[ 2014-10-12T22:39:42+08:00 ] 127.0.0.1 /jobs/index.php/Home/Index/listHandle/type/0.html
+ERR: 非法数据对象！:[accept_time=>]
+

@@ -1,0 +1,12 @@
+[ 2014-10-08T14:04:07+08:00 ] 127.0.0.1 /loginn/index.php/Home/Index/showcresume/id/1.html
+ERR: 模板不存在:./Application/Home/View/Index/showcresume.html
+
+[ 2014-10-08T14:08:06+08:00 ] 127.0.0.1 /loginn/index.php/Home/Index/showcresume/id/1.html
+ERR: 模板不存在:./Application/Home/View/Index/showcresume.html
+
+[ 2014-10-08T14:08:15+08:00 ] 127.0.0.1 /loginn/index.php/Home/Index/showcresume/id/1.html
+ERR: 模板不存在:./Application/Home/View/Index/showcresume.html
+
+[ 2014-10-08T14:53:22+08:00 ] 127.0.0.1 /loginn/index.php/Home/Index/tlist.html
+ERR: 非法操作:tlist
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" " http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>{$list[0]['rname']}简介</title>
+	<link rel="stylesheet" type="text/css" href="__CSS__/bootstrap.min.css">
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="__JS__/bootstrap.min.js"></script>
+<style type="text/css"> 
+
+body{
+	background:url('__IMG__/background.jpg');
+}
+</style>
+</head>
+<body class="text-center">
+<div class="container well text-left" style="margin-top:50px;margin-left:auto;margin-right:auto;width:800px;">
+	<foreach name="list" item="vo">
+		<label><b>{$vo.rname}的公司简介</b></label></br>
+		{$vo.resume}
+	</foreach>
+	<a href="javascript:history.go(-1)" class="btn btn-primary">返回</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" " http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <title>企业邀请页面</title>
+<link rel="stylesheet" type="text/css" href="__CSS__/bootstrap.min.css">
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="__JS__/bootstrap.min.js"></script>
+<style type="text/css"> 
+
+body{
+    background:url('__IMG__/background.jpg');
+}
+</style>
+
+</head>
+<body onLoad="init()" class="text-center">
+<div class="container well" style="margin-left:auto;margin-right:auto;width:400px;">
+    <h3><b>企业邀请</b></h3>
+    <h5>-----------------------------------------------------------------------</h5>
+    <form action="{:U('Home/Index/inviteHandle')}" method="post" name="creator">
+            <label>留言:</label>
+            <textarea id="newscontent" name="message" type="text/plain">
+            </textarea><br>
+            <input type="hidden" name="id" value="{$_GET['id']}">
+            <input type="submit" class="btn btn-success" value="邀请" >
+            <a href="javascript:history.go(-1)" class="btn btn-primary">返回</a>
+        </foreach>
+    <!-- 配置文件 -->
+    <script type="text/javascript" src="__JS__/ueditor.config.js"></script>
+    <!-- 编辑器源码文件 -->
+    <script type="text/javascript" src="__JS__/ueditor.all.js"></script>
+    <!-- 实例化编辑器 -->
+    <div id="newscontent"></div>  
+    <script type="text/javascript">  
+        var editor = new baidu.editor.ui.Editor({toolbars: [
+    ['undo', //撤销
+        'redo', //重做
+        'indent', //首行缩进
+        'snapscreen', //截图]
+        'formatmatch', //格式刷
+        'blockquote', //引用
+        'selectall', //全选
+        'removeformat', //清除格式
+        'insertcode', //代码语言
+        'fontfamily', //字体
+        'fontsize', //字号
+        'attachment',
+        'simpleupload', //单图上传
+        'insertimage', //多图上传
+        'link', //超链接
+        'spechars', //特殊字符
+        'justifyleft', //居左对齐
+        'justifyright', //居右对齐
+        'justifycenter', //居中对齐
+        'justifyjustify', //两端对齐
+        'bold', //加粗
+        'forecolor', //字体颜色
+        'backcolor', //背景色
+        'insertorderedlist', //有序列表
+        'insertunorderedlist', //无序列表
+        'fullscreen', //全屏]
+        ]
+    ],
+    allHtmlEnabled:false,
+    elementPathEnabled:false,
+    maximumWords:300});  
+        editor.render('newscontent');  
+    </script>
+    </form>
+</div>
+</body>
+</html>

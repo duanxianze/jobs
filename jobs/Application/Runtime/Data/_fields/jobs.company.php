@@ -1,0 +1,1 @@
+a:9:{i:0;s:2:"id";i:1;s:4:"name";i:2;s:5:"rname";i:3;s:8:"password";i:4;s:6:"resume";i:5;s:5:"phone";i:6;s:6:"status";s:3:"_pk";s:2:"id";s:5:"_type";a:7:{s:2:"id";s:7:"int(11)";s:4:"name";s:11:"varchar(32)";s:5:"rname";s:11:"varchar(60)";s:8:"password";s:11:"varchar(32)";s:6:"resume";s:10:"mediumtext";s:5:"phone";s:11:"varchar(15)";s:6:"status";s:10:"tinyint(1)";}}

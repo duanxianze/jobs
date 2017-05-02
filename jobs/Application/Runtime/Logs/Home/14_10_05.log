@@ -1,0 +1,26 @@
+[ 2014-10-05T20:38:27+08:00 ] 127.0.0.1 /loginn/index.php/Home/Index/studentlist.html
+ERR: XML标签语法错误 : condition="vo['isinvite'] eq '3'"
+					<td
+
+[ 2014-10-05T20:38:37+08:00 ] 127.0.0.1 /loginn/index.php/Home/Index/studentlist.html
+ERR: XML标签语法错误 : condition="$vo['isinvite'] eq '3'"
+					<td
+
+[ 2014-10-05T21:05:41+08:00 ] 127.0.0.1 /loginn/index.php/Home/Index/list.html
+ERR: 非法操作:list
+
+[ 2014-10-05T21:05:54+08:00 ] 127.0.0.1 /loginn/index.php/Home/Index/list.html
+ERR: 非法操作:list
+
+[ 2014-10-05T21:06:04+08:00 ] 127.0.0.1 /loginn/index.php/Home/Index/list.html
+ERR: 非法操作:list
+
+[ 2014-10-05T21:17:45+08:00 ] 127.0.0.1 /loginn/index.php/Home/Index/listHandle.html
+ERR: 非法操作:listHandle
+
+[ 2014-10-05T22:05:26+08:00 ] 127.0.0.1 /loginn/index.php/Home/Index/ueditor.config.js
+ERR: 非法操作:ueditor.config.js
+
+[ 2014-10-05T22:05:26+08:00 ] 127.0.0.1 /loginn/index.php/Home/Index/ueditor.all.js
+ERR: 非法操作:ueditor.all.js
+
